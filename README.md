@@ -1,11 +1,19 @@
-FrozenLake Q-Learning with Pygame Visualization
-This repository contains an implementation of the Q-Learning algorithm applied to the FrozenLake environment from OpenAI's Gym library. The project includes a custom Pygame-based visualization to render the environment, the agent's movement, and the learning process in real-time.
+# FrozenLake Q-Learning Project
 
-Features
-Q-Learning Algorithm: Implementation of Q-Learning with a Q-table, ε-greedy action selection, and ε-decay.
+## Introduction
+This is a project that uses the Q-Learning algorithm to solve the FrozenLake problem. It combines the OpenAI Gym environment with Pygame visualization to provide a real-time rendering of the agent's learning process and path.
 
-Custom FrozenLake Map: Randomly generates a 6x6 grid with a start point, goal, and traps. Ensures the map has a valid path from start to goal.
-
-Pygame Visualization: Real-time rendering of the environment, agent's path, and score.
-
-Interactive Testing: After training, the agent's performance can be visualized step-by-step.
+## Features
+- Q-Learning Algorithm Implementation
+- Custom Map Generation
+- Pygame Visualization
+## Usage
+1. Clone the Repository:
+   ```bash
+   git clone https://github.com/mactavic/frozenlake-qlearning.git
+2. Clone the Repository:
+   ```bash
+   pip install gym numpy pygame
+3. Clone the Repository:
+   ```bash
+   python frozenlake_qlearning.py
